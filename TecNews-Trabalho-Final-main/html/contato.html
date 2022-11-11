@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="../js/script.js" defer></script>
+    <link rel="stylesheet" href="../css/contato.css">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="../assets/TecNews.png"
+      type="image/x-icon"
+    />
+    <title>Fale Conosco</title>
+  </head>
+
+  <body>
+    <header id = "topo">
+      <a href="index.html" class="logo">
+        <img src="../assets/TecNews.png" alt="Logo TecNews" />
+      </a>
+
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Busque aqui..."
+          aria-label="busque aqui..."
+          aria-describedby="button-addon2"
+        />
+        <button
+          class="btn btn-outline-secondary searchButton"
+          type="button"
+          id="button-addon2"
+        >
+          <img
+            src="../assets/lupa-arredondada.png"
+            alt="botão para buscar"
+          />
+        </button>
+      </div>
+      <div class="switch">
+        <button class="buttonD" onclick="darkMode()">
+          <img src="../assets/lua-minguante.png" alt="botão Lua dark mode" />
+        </button>
+        <button class="buttonL" onclick="lightMode()">
+          <img
+            src="../assets/simbolo-de-sol-preto-solido.png"
+            alt="botão Sol light mode"
+          />
+        </button>
+      </div>
+    </header>
+
+    <main class="cont">
+
+    <h1 style="text-align:center">Fale Conosco!</h1>
+    <hr />
+    <div class="maincont">
+    <img
+        class="imgMain"
+        src="../assets/contato.png"
+        alt="Logos do HTML5, CSS e Java"
+        
+      />
+      
+      <div class="formcont">
+      <h2 style="text-align:center" >Entre em contato conosco!</h1>
+      
+
+      <!-- Formulário em HTML -->
+
+    
+    <form method="POST" id="form">
+      <label for="nome">Nome: </label>
+      <input type="text" name="nome" id="nome" placeholder="Insira seu nome completo"/>
+      <br />
+      <br />
+      <label for="email1">Email: </label>
+      <input type="email" name="email1" id="email1" placeholder="Insira seu E-mail">
+      <br />
+      <br />
+      <label for="nascimento">Data de Nascimento: </label>
+      <input type="date" name="nascimento" id="nascimento">
+      <br />
+      <br />
+      <label for="msg">Mensagem: </label>
+      <textarea class="w-100" id="msg" name="msg" maxlength="410" placeholder="Escreva aqui..." ></textarea> 
+      <br />
+      <br />
+      <div class="check">
+      <input type="checkbox" name="receberEmail" id="receberEmail">
+      <label for="receberEmail">Receber E-mail. </label>
+    </div>
+      <br />
+      <br />
+      <input type="button" class="enviar" name="envia" id="envia" value="ENVIAR">
+      </form>
+    </div>
+    </div>
+
+      
+            
+
+       
+    </main>
+    <aside class="endereco">
+      
+
+        <iframe style="float: right" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.255166635851!2d-43.21139008461672!3d-22.53211228520361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x990854afe3849f%3A0xafd20246b768238a!2sParque%20Tecnol%C3%B3gico%20Regi%C3%A3o%20Serrana!5e0!3m2!1spt-BR!2sbr!4v1664320163116!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   
+        
+        
+        <div class="textoEndereco">
+
+          <h2 style="text-align:center">Endereço</h1>
+          <p>
+              Endereço: R. Afrânio Melo Franco, 333 - 313 - Quitandinha, Petrópolis - RJ, 25651-000 <br />
+              Aberto: 24 Horas <br />
+              Telefone: (24) 2243-7200 <br />
+          </p>
+        </div>
+       
+    
+    </aside>
+  
+
+    <a href="contato.html" class="position-fixed suporte">
+      <i class="bi bi-headset"></i>
+    </a>
+    <footer>
+      <div class="logoFooter">
+        <a href="index.html" class="logo">
+          <img src="../assets/TecNews.png" alt="Logo TecNews" />
+        </a>
+        <p>© Copyright 2000-2022 TecNews Comunicação e Participações S.A</p>
+      </div>
+      
+      <div class="linkFooter">
+        <a href="sobrenos.html">
+          <p>Sobre nós</p>
+        </a>
+
+        <a href="politicaDePrivacidade.html">
+          <p>política de privacidade</p>
+        </a>
+
+        <a href="#topo">
+          <p>Voltar ao topo  ↑ </p>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

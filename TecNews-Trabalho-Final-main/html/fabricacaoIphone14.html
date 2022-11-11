@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="../js/script.js" defer></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/noticias.css" />
+    <link
+      rel="shortcut icon"
+      href="../assets/TecNews.png"
+      type="image/x-icon"
+    />
+    <title>TecNews</title>
+  </head>
+
+  <body>
+    <header id="topo">
+      <a href="index.html" class="logo">
+        <img src="../assets/TecNews.png" alt="Logo TecNews" />
+      </a>
+
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Busque aqui..."
+          aria-label="busque aqui..."
+          aria-describedby="button-addon2"
+        />
+        <button
+          class="btn btn-outline-secondary searchButton"
+          type="button"
+          id="button-addon2"
+        >
+          <img src="../assets/lupa-arredondada.png" alt="botão para buscar" />
+        </button>
+      </div>
+      <div class="switch">
+        <button class="buttonD" onclick="darkMode()">
+          <img src="../assets/lua-minguante.png" alt="botão Lua dark mode" />
+        </button>
+        <button class="buttonL" onclick="lightMode()">
+          <img
+            src="../assets/simbolo-de-sol-preto-solido.png"
+            alt="botão Sol light mode"
+          />
+        </button>
+      </div>
+    </header>
+
+    <main class="cont">
+      <h1>Apple começa a produzir iPhone 14 fora da China</h1>
+      <br />
+      <img
+        class="formatar"
+        src="../assets/iphone14.webp"
+        alt="Imagem do Iphone 14"
+      />
+      <div class="noticias">
+        <br />
+        <p>
+          Nesta segunda-feira (26), a Apple anunciou que levará parte da
+          produção do iPhone 14 para a Índia — aliviando a dependência com as
+          fábricas chinesas. A gigante de Cupertino já produz celulares no país
+          desde 2017, mas limitava-se aos modelos mais antigos. Reforçando sua
+          aposta, a empresa contará com o apoio da Foxconn e sua fábrica em
+          Sriperumbudur, nos arredores de Chenai, para possibilitar a mudança.
+        </p>
+        <p>
+          Buscando também aumentar sua influência no mercado indiano, onde
+          possui pouca presença, a Apple venderá os celulares produzidos na
+          Índia já nas próximas semanas — embora também os exporte. Para os
+          analistas da JPMorgan, a empresa deve levar 5% de sua produção do
+          iPhone 14 para o país até o final deste ano e até 25% de todos os
+          modelos até 2025.
+        </p>
+        <p>
+          Apesar de muito positiva para o mercado indiano, a decisão ainda é
+          pequena frente à dependência da empresa com as fábricas chinesas — que
+          sofrem com os surtos endêmicos da covid-19 e severas restrições
+          governamentais.
+        </p>
+        <img
+          class="formatar"
+          src="../assets/fabricacaoIphone.jpg"
+          alt="Fabricação do Iphone 14"
+        />
+        <h4>Linha de produção de iPhones na Foxconn.</h4>
+        <br />
+        <h2>Líder no segmento premium</h2>
+        <p>
+          Em 2021, a Apple encarou apenas 3,8% de presença no disputado mercado
+          indiano. Entretanto, a empresa conseguiu emplacar o iPhone 13 como
+          celular mais vendido no país durante o segundo trimestre deste ano, no
+          segmento "ultra-premium"— com modelos de até US$ 550 ou R$ 2.960, em
+          conversão direta. Em contraste, o iPhone 14 chegará ao país por US$
+          980 ou R$ 5.280, aproximadamente.
+        </p>
+      </div>
+    </main>
+
+    <a href="contato.html" class="position-fixed suporte">
+      <i class="bi bi-headset"></i>
+    </a>
+    <footer>
+      <div class="logoFooter">
+        <a href="index.html" class="logo">
+          <img src="../assets/TecNews.png" alt="Logo TecNews" />
+        </a>
+        <p>© Copyright 2000-2022 TecNews Comunicação e Participações S.A</p>
+      </div>
+
+      <div class="linkFooter">
+        <a href="sobrenos.html">
+          <p>Sobre nós</p>
+        </a>
+
+        <a href="politicaDePrivacidade.html">
+          <p>política de privacidade</p>
+        </a>
+
+        <a href="#topo">
+          <p>Voltar ao topo ↑</p>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

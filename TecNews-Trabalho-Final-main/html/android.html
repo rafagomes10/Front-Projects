@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="../js/script.js" defer></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/noticias.css" />
+    <link
+      rel="shortcut icon"
+      href="../assets/TecNews.png"
+      type="image/x-icon"
+    />
+    <title>TecNews</title>
+  </head>
+
+  <body>
+    <header id="topo">
+      <a href="index.html" class="logo">
+        <img src="../assets/TecNews.png" alt="Logo TecNews" />
+      </a>
+
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Busque aqui..."
+          aria-label="busque aqui..."
+          aria-describedby="button-addon2"
+        />
+        <button
+          class="btn btn-outline-secondary searchButton"
+          type="button"
+          id="button-addon2"
+        >
+          <img src="../assets/lupa-arredondada.png" alt="botão para buscar" />
+        </button>
+      </div>
+      <div class="switch">
+        <button class="buttonD" onclick="darkMode()">
+          <img src="../assets/lua-minguante.png" alt="botão Lua dark mode" />
+        </button>
+        <button class="buttonL" onclick="lightMode()">
+          <img
+            src="../assets/simbolo-de-sol-preto-solido.png"
+            alt="botão Sol light mode"
+          />
+        </button>
+      </div>
+    </header>
+
+    <main class="cont">
+      <h1>Android 13 vai tornar atualizações contínuas obrigatórias</h1>
+      <br />
+      <img
+        class="formatar"
+        src="../assets/android.webp"
+        alt="Imagem de um celular android"
+      />
+      <div class="noticias">
+        <br />
+        <p>
+          O Android 13 vai trazer para os smartphones a obrigatoriedade das
+          atualizações contínuas. Esse tipo de update nada mais é do que uma
+          atualização em segundo plano, com os recursos aplicados após
+          reinicialização do dispositivo.
+        </p>
+        <p>
+          Em versões anteriores do sistema operacional, alguns fabricantes de
+          celulares, principalmente a Samsung, não permitiam esse tipo de
+          atualização, mesmo sendo mais seguro e conveniente para o usuário.
+          Agora, eles serão obrigados a aceitar.
+        </p>
+        <p>
+          A mudança obrigatória está no documento de definição de
+          compatibilidade do Android para a versão 13 do software. O Google diz
+          que "as implementações de dispositivos DEVEM oferecer suporte a
+          atualizações do sistema A/B".
+        </p>
+        <img
+          class="formatar"
+          src="../assets/androidCelular.jpg"
+          alt="Imagem do Galaxy Z Flip"
+        />
+        <h4>
+          Os smartphones atuais da Samsung, incluindo dobráveis como o Galaxy z
+          flip 4 5G, ignoram a atualização contínua.
+        </h4>
+        <br />
+        <p>
+          A big tech destaca que as atualizações contínuas são um requisito para
+          dispositivos lançados já com o Android 13. Os telefones mais antigos,
+          que estrearam com versões anteriores, são a exceção.
+        </p>
+        <p>
+          O Google já havia dado indícios da obrigatoriedade no Android 11, mas
+          acabou não vingando. As mudanças no Android 13, porém, devem fazer que
+          o recurso seja implementado de vez.
+        </p>
+        <p>
+          A Samsung passou bastante tempo ignorando as atualizações contínuas,
+          incluindo nos smartphones mais recentes, como os novos dobráveis e no
+          Galaxy S22. Isso deve mudar já na linha a ser lançada no ano que vem.
+        </p>
+      </div>
+    </main>
+
+    <a href="contato.html" class="position-fixed suporte">
+      <i class="bi bi-headset"></i>
+    </a>
+    <footer>
+      <div class="logoFooter">
+        <a href="index.html" class="logo">
+          <img src="../assets/TecNews.png" alt="Logo TecNews" />
+        </a>
+        <p>© Copyright 2000-2022 TecNews Comunicação e Participações S.A</p>
+      </div>
+
+      <div class="linkFooter">
+        <a href="sobrenos.html">
+          <p>Sobre nós</p>
+        </a>
+
+        <a href="politicaDePrivacidade.html">
+          <p>política de privacidade</p>
+        </a>
+
+        <a href="#topo">
+          <p>Voltar ao topo ↑</p>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

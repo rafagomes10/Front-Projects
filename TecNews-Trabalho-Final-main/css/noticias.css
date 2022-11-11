@@ -1,0 +1,26 @@
+:root {
+  font-size: 62.5%;
+  --cor-padrao: #add8e6;
+  --background-padrao: #f4f1f1;
+  --margin-header: 5rem;
+  --background-dark: #161515;
+  --background-sec-dark: #292828;
+}
+
+.noticias {
+  width: 100%;
+  margin: auto;
+  padding: 0%;
+}
+
+h1 {
+  text-align: center;
+}
+.formatar {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  width: 90%;
+}

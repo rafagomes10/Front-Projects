@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="../js/script.js" defer></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/noticias.css" />
+    <link
+      rel="shortcut icon"
+      href="../assets/TecNews.png"
+      type="image/x-icon"
+    />
+    <title>TecNews</title>
+  </head>
+
+  <body>
+    <header id="topo">
+      <a href="index.html" class="logo">
+        <img src="../assets/TecNews.png" alt="Logo TecNews" />
+      </a>
+
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Busque aqui..."
+          aria-label="busque aqui..."
+          aria-describedby="button-addon2"
+        />
+        <button
+          class="btn btn-outline-secondary searchButton"
+          type="button"
+          id="button-addon2"
+        >
+          <img src="../assets/lupa-arredondada.png" alt="botão para buscar" />
+        </button>
+      </div>
+      <div class="switch">
+        <button class="buttonD" onclick="darkMode()">
+          <img src="../assets/lua-minguante.png" alt="botão Lua dark mode" />
+        </button>
+        <button class="buttonL" onclick="lightMode()">
+          <img
+            src="../assets/simbolo-de-sol-preto-solido.png"
+            alt="botão Sol light mode"
+          />
+        </button>
+      </div>
+    </header>
+
+    <main class="cont">
+      <h1>
+        Apple e Google removem vírus baixados 13 milhões de vezes em lojas
+      </h1>
+      <br />
+      <img
+        class="formatar"
+        src="../assets/virus.webp"
+        alt="Imagem de celular com vírus"
+      />
+      <div class="noticias">
+        <br />
+        <p>
+          Especialistas em segurança cibernética detectaram mais de 80
+          aplicativos falsos nas lojas oficiais do Android e do iOS, que estavam
+          envolvidos em fraudes de anúncios, de acordo com relatório divulgado
+          na sexta-feira (23). Os adwares foram instalados 13 milhões de vezes
+          nos dois sistemas operacionais.
+        </p>
+        <p>
+          Conforme a equipe de pesquisadores Satori Threat Intelligence da
+          HUMAN, os programas em questão se passavam por apps legítimos, mas
+          atuavam exibindo uma enxurrada de anúncios nos celulares das vítimas.
+          Eles também podiam executar a exibição de publicidade de forma oculta,
+          gerando visualizações para páginas fraudulentas.
+        </p>
+        <p>
+          Usando um ID de pacote não correspondente ao nome da publicação, os
+          apps falsos enganavam os anunciantes gerando receita com cliques e
+          impressões que aparentemente eram oriundas de uma categoria de
+          software mais lucrativa. Contando com camadas adicionais de ofuscação
+          de código, era difícil detectá-los.
+        </p>
+        <br />
+        <img
+          class="formatar"
+          src="../assets/appVirus.jpg"
+          alt="Aplicativo utilizado na campanha maliciosa"
+        />
+        <h4>
+          O app Wood Sculptor para iOS era um dos utilizados na campanha
+          maliciosa.
+        </h4>
+        <br />
+        <p>
+          Os responsáveis pela descoberta acreditam que esses adwares façam
+          parte de uma campanha de fraude publicitária intitulada “Scylla”. Ela
+          seria a terceira onda de uma ação iniciada em 2019, apelidada de
+          “Poseidon”, que teve a segunda etapa, batizada de “Charybdis”,
+          organizada em 2020.
+        </p>
+        <br />
+        <h2>Apps removidos</h2>
+        <p>
+          Segundo o relatório, a maior parte dos apps de anúncios falsos foi
+          encontrada na Play Store. Eram mais de 75 adwares disponíveis na loja
+          do Android, disfarçados de softwares legítimos utilizando nomes como
+          Dinosaur Legend, Super Hero-Save the world!, Find 5 Differences, Shoot
+          Master e Spot 10 Differences, entre outras dezenas de títulos.
+        </p>
+        <p>
+          Já na loja do iOS, eram mais de 10 apps fraudulentos envolvidos na
+          campanha maliciosa, conforme os especialistas. Run Bridge, Racing
+          Legend 3D, Fire-Wall, Ninja Critical Hit, Wood Sculptor e Shinning Gun
+          eram alguns deles. Google e Apple foram alertadas e removeram todos os
+          adwares detectados pela equipe, com os apps falsos não estando mais
+          disponíveis para download.
+        </p>
+        <p>
+          Porém, muitos deles ainda podem estar instalados nos celulares e
+          escapado da detecção automática. Por isso, é importante conferir a
+          lista completa dos softwares fraudulentos envolvidos na campanha, no
+          site da HUMAN Security, e removê-los manualmente caso possua algum
+          sendo executado em seu telefone.
+        </p>
+      </div>
+    </main>
+
+    <a href="contato.html" class="position-fixed suporte">
+      <i class="bi bi-headset"></i>
+    </a>
+    <footer>
+      <div class="logoFooter">
+        <a href="index.html" class="logo">
+          <img src="../assets/TecNews.png" alt="Logo TecNews" />
+        </a>
+        <p>© Copyright 2000-2022 TecNews Comunicação e Participações S.A</p>
+      </div>
+
+      <div class="linkFooter">
+        <a href="sobrenos.html">
+          <p>Sobre nós</p>
+        </a>
+
+        <a href="politicaDePrivacidade.html">
+          <p>política de privacidade</p>
+        </a>
+
+        <a href="#topo">
+          <p>Voltar ao topo ↑</p>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

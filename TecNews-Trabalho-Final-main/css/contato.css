@@ -1,0 +1,71 @@
+:root {
+  font-size: 62.5%;
+  --cor-padrao: #add8e6;
+  --background-padrao: #f4f1f1;
+  --margin-header: 5rem;
+  --background-dark: #161515;
+  --background-sec-dark: #292828;
+}
+
+
+
+.check {
+  display: flex;
+  align-items: center;
+}
+.check input {
+  margin-right: 1rem;
+}
+.imgMain{
+  width: 25%;
+  height: 25%;
+}
+
+#msg {
+  padding: 1rem;
+  height: 20rem;
+  resize: none;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+
+.endereco {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-bottom: 14rem;
+}
+.maincont{
+  margin-top: 22rem;
+  margin-bottom: 10rem;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20rem;
+}
+.formcont{
+  width: 50%;
+}
+.formcont form{
+  width: 100%;
+}
+.endereco .textoEndereco p {
+  margin-right: 2rem;
+  font-size: 1.5rem;
+}
+
+body.darkmode form .enviar:hover {
+  background-color: var(--background-dark);
+  border-color: var(--cor-padrao);
+}
+
+body.darkMode form input,
+body.darkMode form textarea {
+  background-color: var(--background-sec-dark);
+  color: var(--background-padrao);
+}

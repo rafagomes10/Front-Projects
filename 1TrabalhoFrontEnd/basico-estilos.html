@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/styles.css">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous" defer></script>
+
+
+    <title>Estilos Basicos pg2</title>
+</head>
+<body>
+    <h1 style="text-align:center">Básico sobre Estilos; </h1>
+    <hr />
+    <br /> 
+    <br />
+
+    <h1 style="text-align:center">O Que Exatamente é CSS? </h1>
+    <img style="float: left" src="img/CSS.jpeg" alt="Logos do HTML5, CSS e Java" width="50%" height="30%">
+    <p>Cascading Style Sheets (CSS) é uma linguagem de marcação responsável pelo visual das suas páginas da web.
+     Ele controla as cores, fontes e layouts dos elementos do seu site.
+
+    Esta linguagem de estilo também permite que você adicione efeitos ou animações para o seu site.
+    Você pode usá-la para exibir algumas animações CSS como os efeitos de clique em botões, de spinner e de loader,
+    assim como fundos animados.
+        
+    Sem o CSS, o seu site vai aparecer como uma página HTML simples. Veja abaixo como fica o Twitter se a gente desabilitar o CSS:</p>
+    
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <h1 style="text-align:center">CSS Interno</h1>
+    <br />
+    <br />
+    <br />
+    <p> O CSS interno ou incorporado requer que você adicione a tags (style) na seção (head) do seu documento HTML.
+        Este estilo de CSS é um método efetivo de estilizar uma única página. Contudo,
+        usar esse estilo em múltiplas páginas pode consumir muito tempo, já que você precisa definir as regras CSS para
+        cada página do seu site.<br /> <br />
+        Desvantagens de CSS Interno:<br />
+        Adicionar o código para o documento HTML pode aumentar o tamanho da página e o tempo de carregamento.
+    </p>
+    <br />
+    <br />
+    <br />
+    <h1 style="text-align:center">CSS Externo</h1>
+    <br />
+    <br />
+    <br />
+    <p>Com o CSS externo, você vai linkar as páginas da internet com um arquivo.
+    CSS externo, que você pode criar usando qualquer editor de texto no seu dispositivo (ex.: Notepad++).
+    Este tipo de CSS é um método mais eficiente, especialmente se você está estilizando um site grande.
+    Ao editar um arquivo .css, você pode modificar um site inteiro de uma só vez.<br /> <br />
+    Vantagens de CSS Externo: <br />
+    Como o código CSS está num documento separado, os seus arquivos HTML terão uma estrutura mais limpa e serão menores
+    O mesmo arquivo .css pode ser usado em várias páginas. <br /><br />
+    Desvantagens de CSS Externo:<br />
+    Até que o CSS externo seja carregado, a página pode não ser processada corretamente.<br />
+    Fazer o upload ou links para múltiplos arquivos CSS pode aumentar o tempo de download do seu site.
+
+</p>
+    <br />
+    <br />
+    <br />
+    <h1 style="text-align:center">CSS Inline</h1>
+    <br />
+    <br />
+    <br />
+    <p> O CSS inline é usado para dar estilo a um elemento HTML específico.
+        Para este estilo de CSS você somente vai precisar adicionar o atributo style para cada tag HTML,
+        sem usar os seletores.<br />
+        Este tipo de CSS não é realmente recomendado, já que cada tag HTML precisa ser estilizada de maneira individual.
+        Gerenciar o seu site pode se tornar uma tarefa bem difícil de você só usa o CSS inline.<br />
+        Contudo, o CSS nline no HTML pode ser útil para algumas situações. Por exemplo,
+        sem casos onde você não tem acesso aos arquivos CSS ou precisa aplicar estilos para um elemento único.<br /><br />
+
+        Vantagens do CSS Inline : <br />
+        Você pode inserir elementos CSS de maneira fácil e rápida numa página HTML. É por isso que esse método é útil
+        para testar e pré-visualizar mudanças, assim como executar correções rápidas no seu site. <br />
+        Você não precisa criar e fazer upload de um documento separado como no estilo externo.<br /><br />
+        Desvantagens do Inline CSS:<br />
+        Adicionar regras CSS para cada elemento HTML consome muito tempo e faz a sua estrutura HTML ficar bagunçada.<br />
+        Estilizar múltiplos elementos pode afetar o tamanho da sua página o tempo para download.<br /><br /><br /><br />
+
+    <h1 style="text-align:center">Modelo de caixa CSS (Box Model)</h1>
+    <br />
+    <br />
+    <br />
+    <p> O modelo de caixa CSS<br />
+        Em CSS, o termo "modelo de caixa" é usado quando se fala de design e layout.<br />
+        
+        O modelo de caixa CSS é essencialmente uma caixa que envolve cada elemento HTML.
+        Ele consiste em: margens, bordas, preenchimento e o conteúdo real. A imagem abaixo ilustra o modelo da caixa:<br /><br /><br />
+
+        <img style="float: center" src="img/boxmodel.png" alt="Logos do HTML5, CSS e Java" width="100%" height="80%">
+
+        <br /><br /><br /><br />
+    <h1 style="text-align:center">Estilização de Texto com CSS</h1>
+    <p> Quando escrevemos o HTML, marcamos o conteúdo da página com tags que melhor representam o significado daquele
+        conteúdo. Quando abrimos a página no navegador é possível perceber que ele mostra as informações com estilos
+        diferentes.<br />
+        Um h1, por exemplo, por padrão é apresentado em negrito numa fonte maior.
+        Parágrafos de texto são espaçados entre si, e assim por diante. Isso quer dizer que o navegador tem um estilo
+        padrão para as tags que usamos. Porém para fazer sites bonitos, ou com o visual próximo de uma dada identidade
+        visual (design), vamos precisar personalizar a apresentação padrão dos elementos da página.<br /><br />
+        Além da tag (font), várias outras tags de estilo existiam. Mas isso é passado.
+        Hoje em dia tags HTML para estilo são má prática e jamais devem ser usadas, são interpretadas apenas para o modo
+        de compatibilidade.<br /><br />
+        Em seu lugar, surgiu o CSS (Cascading Style Sheet ou folha de estilos em cascata), que é uma outra linguagem,
+        separada do HTML, com objetivo único de cuidar da estilização da página. A vantagem é que o CSS é bem mais robusto
+        que o HTML para estilização, como veremos. Mas, principalmente, escrever formatação visual misturado com conteúdo
+        de texto no HTML se mostrou algo impraticável. O CSS resolve isso separando as coisas; regras de estilo não
+        aparecem mais no HTML, apenas no CSS.<br /><br />
+
+        Para mais informações sobre estilização com CSS:<br /><br />
+        <a href="https://www.alura.com.br/apostila-html-css-javascript/04CA-mudando-o-visual-da-nossa-pagina" target="_blank"><img src="img/EstiloCSS.png" alt="estiloCSS" width="300px" height="100px"> </a>
+       
+        
+
+        
+       
+        </p>
+
+        
+        </p>
+    <br />
+    <br />
+    <br />    
+
+    <br />
+    <br />
+    <br />
+    
+    <h2 style="text-align: center">Páginas</h2>
+
+    <div style="text-align: center">
+
+    <br /><br /> </a>
+    <a href="index.html" target="_self"><img src="img/1.png" alt="pagina1" width="30px" height="30px"> </a>
+    <a href="estruturabasica.html" target="_self"><img src="img/3.png" alt="pagina3" width="30px" height="30px"> </a>
+    <a href="html-semantico.html" target="_self"><img src="img/4.png" alt="pagina4" width="30px" height="30px"> </a>
+    </div>
+    
+</body>
+
+<!--SCRIPT-->
+<script src="./assets/js/script.js"></script>
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+</html>

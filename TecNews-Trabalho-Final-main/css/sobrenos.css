@@ -1,0 +1,69 @@
+:root {
+  font-size: 62.5%;
+  --cor-padrao: #add8e6;
+  --background-padrao: #f4f1f1;
+  --margin-header: 5rem;
+  --background-dark: #161515;
+  --background-sec-dark: #292828;
+}
+
+.pai {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.filho {
+  background-color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 2px var(--background-sec-dark);
+}
+
+h1 {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.filho img {
+  border-radius: 50%;
+}
+
+.midia svg {
+  width: 3rem;
+  height: 3rem;
+}
+
+.midia svg path:nth-of-type(1) {
+  fill: var(--background-dark);
+}
+
+.midia a:hover svg path:nth-of-type(1) {
+  opacity: 0.5;
+}
+
+body.darkMode .midia svg path:nth-of-type(1) {
+  fill: var(--background-padrao);
+}
+
+body.darkMode .midia a:hover svg path:nth-of-type(1) {
+  fill: var(--background-sec-dark);
+}
+
+body.darkMode .midia svg path:nth-of-type(2) {
+  fill: var(--background-sec-dark);
+}
+
+body.darkMode .filho {
+  background-color: var(--background-sec-dark);
+}
+
+.about {
+  display: flex;
+  gap: 1.5rem;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="../js/script.js" defer></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/noticias.css" />
+    <link
+      rel="shortcut icon"
+      href="../assets/TecNews.png"
+      type="image/x-icon"
+    />
+    <title>TecNews</title>
+  </head>
+
+  <body>
+    <header id="topo">
+      <a href="index.html" class="logo">
+        <img src="../assets/TecNews.png" alt="Logo TecNews" />
+      </a>
+
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Busque aqui..."
+          aria-label="busque aqui..."
+          aria-describedby="button-addon2"
+        />
+        <button
+          class="btn btn-outline-secondary searchButton"
+          type="button"
+          id="button-addon2"
+        >
+          <img src="../assets/lupa-arredondada.png" alt="botão para buscar" />
+        </button>
+      </div>
+      <div class="switch">
+        <button class="buttonD" onclick="darkMode()">
+          <img src="../assets/lua-minguante.png" alt="botão Lua dark mode" />
+        </button>
+        <button class="buttonL" onclick="lightMode()">
+          <img
+            src="../assets/simbolo-de-sol-preto-solido.png"
+            alt="botão Sol light mode"
+          />
+        </button>
+      </div>
+    </header>
+
+    <main class="cont">
+      <h1>Samsung e Intel revelam híbrido de PC/tablet com tela deslizante</h1>
+      <br />
+      <img
+        class="formatar"
+        src="../assets/SamsungHibrido.webp"
+        alt="Hibrido de PC e Tablet da Intel"
+      />
+      <div class="noticias">
+        <br />
+        <p>
+          Durante o evento de inovação da Intel, foi apresentado o protótipo de
+          um dispositivo que desliza de um tablet de 13 polegadas para um PC com
+          tela de 17 polegadas. A apresentação foi realizada durante uma
+          palestra do CEO da Samsung Display, JS Choi.
+        </p>
+        <p>
+          O protótipo apresentado pela Samsung Display, em parceria com a Intel,
+          revela um tablet de 13 polegadas que usa um mecanismo deslizante para
+          se transformar em um PC de 17 polegadas com tela flexível. A Intel é
+          responsável pelo Unison, um software que conecta computadores que usam
+          a tecnologia Intel a diferentes smartphones, como dispositivos
+          Androids e iPhones.
+        </p>
+        <p>
+          Aparentemente, a Samsung Display começará a implementar a tecnologia
+          deslizante com mais frequência, já que o executivo sugeriu que as
+          telas dobráveis não devem durar muito tempo no mercado de PCs.
+        </p>
+        <br />
+        <iframe
+          width="100%"
+          height="380"
+          src="https://www.youtube.com/embed/Aknf6mPKGe0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <br /><br />
+        <h2>Display deslizante</h2>
+        <br />
+        <p>
+          “Estamos anunciando a primeira tela deslizante de 17 polegadas do
+          mundo para PCs. Este dispositivo irá satisfazer várias necessidades de
+          uma tela maior e portabilidade também”, disse Choi durante o evento.
+        </p>
+        <p>
+          De qualquer forma, o PC deslizante ainda é apenas um protótipo e
+          nenhuma das companhias revelou previsão para a novidade se tornar
+          realidade entre os consumidores
+        </p>
+      </div>
+    </main>
+
+    <a href="contato.html" class="position-fixed suporte">
+      <i class="bi bi-headset"></i>
+    </a>
+    <footer>
+      <div class="logoFooter">
+        <a href="index.html" class="logo">
+          <img src="../assets/TecNews.png" alt="Logo TecNews" />
+        </a>
+        <p>© Copyright 2000-2022 TecNews Comunicação e Participações S.A</p>
+      </div>
+
+      <div class="linkFooter">
+        <a href="sobrenos.html">
+          <p>Sobre nós</p>
+        </a>
+
+        <a href="politicaDePrivacidade.html">
+          <p>política de privacidade</p>
+        </a>
+
+        <a href="#topo">
+          <p>Voltar ao topo ↑</p>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

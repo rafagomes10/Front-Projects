@@ -1,0 +1,329 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --cor-padrao: #add8e6;
+  --background-padrao: #f4f1f1;
+  --margin-header: 5rem;
+  --background-dark: #161515;
+  --background-sec-dark: #292828;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 1.6rem;
+}
+
+h1 {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--background-dark);
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  color: var(--background-dark);
+  background-color: var(--background-padrao);
+  font-size: 1.6rem;
+  font-family: "Montserrat";
+}
+
+/* header */
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-inline: 6.5rem;
+  padding-block: 2.6rem;
+  justify-content: space-between;
+  background-color: var(--cor-padrao);
+  width: 100%;
+}
+
+.input-group {
+  width: 35%;
+  height: 4rem;
+  box-shadow: 2px 2px 4px var(--background-sec-dark);
+}
+
+.searchButton {
+  border: none;
+  background-color: var(--background-padrao);
+  border-radius: 15%;
+}
+
+.searchButton img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.logo img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.logo img:hover {
+  opacity: 0.6;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+/* switch */
+
+.buttonD img,
+.buttonL img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.switch {
+  position: relative;
+  height: 100%;
+}
+
+.buttonL {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.buttonL {
+  visibility: hidden;
+  opacity: 0;
+}
+
+body.darkMode .switch .buttonL {
+  visibility: visible;
+  opacity: 1;
+}
+
+body.darkMode .switch .buttonD {
+  visibility: hidden;
+  opacity: 0;
+}
+
+body.darkMode {
+  color: var(--background-padrao);
+}
+
+body.darkMode p {
+  color: var(--background-padrao);
+}
+
+body.darkMode {
+  background-color: var(--background-dark);
+}
+
+body.darkMode nav.navbar,
+body.darkMode .dropdown-menu {
+  background-color: var(--background-sec-dark);
+}
+
+body.darkMode nav.navbar #navbarNavDropdown ul li a.nav-link,
+body.darkMode .dropdown-menu a.dropdown-item {
+  color: white;
+}
+
+body.darkMode nav.navbar #navbarNavDropdown ul li a.nav-link:hover,
+body.darkMode .dropdown-menu a.dropdown-item:hover {
+  color: #0a0909;
+}
+
+body.darkMode form {
+  background-color: var(--background-sec-dark);
+  color: white;
+}
+
+body.darkMode h1 {
+  color: var(--background-padrao);
+}
+
+body.darkMode .carousel-caption {
+  background-color: var(--background-dark);
+  color: var(--cor-padrao);
+}
+
+body.darkMode .carousel-indicators button.buttonCarousel {
+  background-color: var(--cor-padrao);
+}
+
+/* nav */
+
+nav {
+  background-color: white;
+  margin-bottom: var(--margin-header);
+}
+
+/* main */
+.cont {
+  margin-top: 5rem;
+  margin-bottom: 14rem;
+
+  padding-inline: 10rem;
+}
+
+.mainNot {
+  display: flex;
+  flex-direction: column;
+  gap: 9rem;
+}
+
+.imgaside {
+  display: flex;
+  text-align: center;
+}
+
+.aside h2 {
+  margin-bottom: 3rem;
+}
+
+.aside h3 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+/* suporte */
+
+.suporte {
+  bottom: 0.1rem;
+  right: 1rem;
+}
+
+.suporte {
+  font-size: 5.5rem;
+  color: var(--background-dark);
+}
+
+body.darkMode .suporte {
+  color: var(--background-padrao);
+}
+
+.suporte:hover {
+  color: var(--background-dark);
+  opacity: 0.6;
+}
+
+/* aside */
+
+aside {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10rem;
+}
+aside h2 {
+  margin-bottom: 3rem;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-inline: 6.5rem;
+  padding-block: 2.6rem;
+  justify-content: space-between;
+  background-color: var(--cor-padrao);
+  width: 100%;
+}
+
+footer .linkFooter p,
+footer .logoFooter p {
+  font-size: 1.4rem;
+  color: var(--background-dark);
+}
+
+footer .linkFooter a:hover p {
+  font-size: 1.4rem;
+  opacity: 0.5;
+}
+
+/* carrossel */
+
+.carousel-caption {
+  background-color: var(--cor-padrao);
+  color: var(--background-dark);
+}
+
+.carousel-indicators button.buttonCarousel {
+  background-color: var(--background-dark);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  margin: auto;
+  background-color: white;
+  padding: 3rem;
+  box-shadow: 2px 2px 4px var(--background-dark);
+}
+
+@media (max-width: 1200px) {
+  .cont {
+    padding: 2rem;
+    margin-top: 0;
+  }
+  .maincont {
+    flex-direction: column;
+    gap: 16rem;
+  }
+  .formcont {
+    width: 70%;
+  }
+  .imgMain {
+    width: 60%;
+  }
+  .suporte {
+    font-size: 4.5rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .about {
+    flex-wrap: wrap;
+  }
+
+  .pai {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .about img {
+    width: 100%;
+  }
+
+  .logo img {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  footer .logoFooter p {
+    width: 30rem;
+  }
+
+  .aside {
+    flex: wrap;
+  }
+}

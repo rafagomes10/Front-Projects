@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="../js/script.js" defer></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/noticias.css" />
+    <link
+      rel="shortcut icon"
+      href="../assets/TecNews.png"
+      type="image/x-icon"
+    />
+    <title>TecNews</title>
+  </head>
+
+  <body>
+    <header id="topo">
+      <a href="index.html" class="logo">
+        <img src="../assets/TecNews.png" alt="Logo TecNews" />
+      </a>
+
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Busque aqui..."
+          aria-label="busque aqui..."
+          aria-describedby="button-addon2"
+        />
+        <button
+          class="btn btn-outline-secondary searchButton"
+          type="button"
+          id="button-addon2"
+        >
+          <img src="../assets/lupa-arredondada.png" alt="botão para buscar" />
+        </button>
+      </div>
+      <div class="switch">
+        <button class="buttonD" onclick="darkMode()">
+          <img src="../assets/lua-minguante.png" alt="botão Lua dark mode" />
+        </button>
+        <button class="buttonL" onclick="lightMode()">
+          <img
+            src="../assets/simbolo-de-sol-preto-solido.png"
+            alt="botão Sol light mode"
+          />
+        </button>
+      </div>
+    </header>
+
+    <main class="cont">
+      <h1>Xiaomi estaria criando celular com 'câmera DSLR', revela patente</h1>
+      <br />
+      <img
+        class="formatar"
+        src="../assets/Xiaomi.webp"
+        alt="imagem de smartphone xiaomi"
+      />
+      <div class="noticias">
+        <br />
+        <p>
+          A Xiaomi pode estar trabalhando em um novo celular com uma câmera que
+          opera de modo parecido com câmeras DLSR profissionais e
+          semiprofissionais. A informação vem de um registro de patente da
+          empresa, sendo divulgado por uma conta conhecida pelos seus vazamentos
+          corretos, a Digital Chat Station.
+        </p>
+        <p>
+          Segundo informações da patente, o dispositivo em questão usa um grande
+          sensor único em sua câmera, capaz de se mover no corpo do smartphone
+          para entregar diferentes distâncias focais e estados de zoom.
+          Atualmente, a maioria dos celulares opta por ter várias câmeras para
+          entregar o mesmo efeito, deixando as opções de foco e zoom para cada
+          sensor no corpo do aparelho.
+        </p>
+        <p>
+          A companhia está prometendo ganhos de 15% em single-thread e até 41%
+          no multi-thread quando comparados aos processadores anteriores. Aliás,
+          vale destacar que com os novos produtos, a marca aumentou a quantidade
+          de núcleos de Eficiência presentes em diversos produtos da lista.
+        </p>
+        <img
+          class="formatar"
+          src="../assets/xiaomiPatente.jpg"
+          alt="patente novo celular xiaomi"
+        />
+        <h4>Imagem esquemática na patente da Xiaomi sobre o novo celular.</h4>
+        <br />
+        <p>
+          A Xiaomi não seria a primeira a tentar uma solução no estilo DSLR para
+          um smartphone. A Samsung, por exemplo, já lançou modelos como o Galaxy
+          K Zoom e o Galaxy S4 Zoom — celulares que, vistos por trás, pareciam
+          mais uma câmera digital das antigas mesmo.
+        </p>
+        <p>
+          A solução da fabricante chinesa, de acordo com a patente, parece ser
+          mais discreta e não vai entregar uma câmera protuberante atrás do
+          dispositivo, além de possivelmente não deixá-lo muito mais pesado. Se
+          funcionar, pode ser a receita para dar certo que os dispositivos
+          anteriores não conseguiram alcançar.
+        </p>
+      </div>
+    </main>
+
+    <a href="contato.html" class="position-fixed suporte">
+      <i class="bi bi-headset"></i>
+    </a>
+    <footer>
+      <div class="logoFooter">
+        <a href="index.html" class="logo">
+          <img src="../assets/TecNews.png" alt="Logo TecNews" />
+        </a>
+        <p>© Copyright 2000-2022 TecNews Comunicação e Participações S.A</p>
+      </div>
+
+      <div class="linkFooter">
+        <a href="sobrenos.html">
+          <p>Sobre nós</p>
+        </a>
+
+        <a href="politicaDePrivacidade.html">
+          <p>política de privacidade</p>
+        </a>
+
+        <a href="#topo">
+          <p>Voltar ao topo ↑</p>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="../js/script.js" defer></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/noticias.css" />
+    <link
+      rel="shortcut icon"
+      href="../assets/TecNews.png"
+      type="image/x-icon"
+    />
+    <title>TecNews</title>
+  </head>
+
+  <body>
+    <header id="topo">
+      <a href="index.html" class="logo">
+        <img src="../assets/TecNews.png" alt="Logo TecNews" />
+      </a>
+
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Busque aqui..."
+          aria-label="busque aqui..."
+          aria-describedby="button-addon2"
+        />
+        <button
+          class="btn btn-outline-secondary searchButton"
+          type="button"
+          id="button-addon2"
+        >
+          <img src="../assets/lupa-arredondada.png" alt="botão para buscar" />
+        </button>
+      </div>
+      <div class="switch">
+        <button class="buttonD" onclick="darkMode()">
+          <img src="../assets/lua-minguante.png" alt="botão Lua dark mode" />
+        </button>
+        <button class="buttonL" onclick="lightMode()">
+          <img
+            src="../assets/simbolo-de-sol-preto-solido.png"
+            alt="botão Sol light mode"
+          />
+        </button>
+      </div>
+    </header>
+
+    <main class="cont">
+      <h1>Intel anuncia processadores de 13ª geração com até 5,8 Ghz</h1>
+      <br />
+      <img
+        class="formatar"
+        src="../assets/intel.webp"
+        alt="Imagem de processador intel"
+      />
+      <div class="noticias">
+        <br />
+        <p>
+          Depois de rumores, vazamentos e muitas especulações, a Intel anunciou
+          a chegada da sua 13ª geração de processadores domésticos, de codinome
+          Raptor Lake. As novas CPUs mantém a arquitetura híbrida introduzida na
+          geração passada, com E e P-Cores, overclock desbloqueado e gráficos
+          integrados.
+        </p>
+        <br />
+        <h2>i9-13900K é o novo rei da Intel</h2>
+        <p>
+          Como já era de se esperar, o Intel Core i9-13900K foi anunciado como o
+          flagship dessa nova geração, trazendo 24 núcleos (8 de performance e
+          16 de eficiência) e 32 threads, e clock boost que pode chegar a 5,8
+          Ghz, ou seja, 300 Mhz a mais do que o i9-12900KS.
+        </p>
+        <p>
+          A companhia está prometendo ganhos de 15% em single-thread e até 41%
+          no multi-thread quando comparados aos processadores anteriores. Aliás,
+          vale destacar que com os novos produtos, a marca aumentou a quantidade
+          de núcleos de Eficiência presentes em diversos produtos da lista.
+        </p>
+        <img
+          class="formatar"
+          src="../assets/processadoresIntel.jpg"
+          alt="Tabela de processadores Intel"
+        />
+        <h4>Tabela de CPUs anunciadas</h4>
+        <br />
+        <p>
+          O suporte com memórias RAM no padrão DDR5 continua, e agora, as
+          frequências nativas foram aumentadas para 5200 Mhz. O DDR4 também foi
+          mantido pela Intel, abrindo o leque de opções para o usuário escolher.
+          O PCIe Gen 5.0 foi atualizado para placas de vídeo e SSDs, chegando a
+          16 pistas disponíveis.
+        </p>
+        <p>
+          No que diz respeito ao consumo, a Intel abriu a porteira para bastante
+          energia sendo consumida. As famílias i5, i7 e i9 tem consumo base de
+          125W, porém, os dois últimos podem chegar a picos de 253W quando
+          acionados no modo Turbo.
+        </p>
+        <p>
+          Para felicidade geral dos usuários, as plataformas de placas-mãe série
+          600 serão compatíveis com os Raptor Lake, uma vez que o soquete LGA
+          1700 não sofreu alterações. Ademais, a série de mainboards 700 foi
+          introduzida ao mercado com a topo de linha Z790, que oferece oito
+          pistas adicionais de PCIe 4.0, portas USB 3.2 Gen 2x2 de 20 Gbps, etc.
+        </p>
+        <br />
+        <h2>Preço e disponibilidade</h2>
+        <p>
+          Os processadores Intel de 13ª geração chegam ao mercado no próximo dia
+          20 de outubro, junto com as novas placas-mãe Z790. A Intel, no
+          entanto, ainda não divulgou preço oficial dos produtos.
+        </p>
+      </div>
+    </main>
+
+    <a href="contato.html" class="position-fixed suporte">
+      <i class="bi bi-headset"></i>
+    </a>
+    <footer>
+      <div class="logoFooter">
+        <a href="index.html" class="logo">
+          <img src="../assets/TecNews.png" alt="Logo TecNews" />
+        </a>
+        <p>© Copyright 2000-2022 TecNews Comunicação e Participações S.A</p>
+      </div>
+
+      <div class="linkFooter">
+        <a href="sobrenos.html">
+          <p>Sobre nós</p>
+        </a>
+
+        <a href="politicaDePrivacidade.html">
+          <p>política de privacidade</p>
+        </a>
+
+        <a href="#topo">
+          <p>Voltar ao topo ↑</p>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
